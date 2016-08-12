@@ -2,7 +2,7 @@ import random
 def init():
     tempo=80
     measures=20
-    title='Testy'
+    title='Music'
     file = open('C:\\Users\\Public\\Desktop\\'+title+str(random.random())+'.aria','w')
     file.write('<seqview xscroll="0.000000" yscroll="0" zoom="100">\n')
     file.write('<sequence maintempo="'+str(tempo)+'" measureAmount="'+str(measures)+'" currentTrack="1" beatResolution="1000" internalName="'+title+'" fileFormatVersion="4" channelManagement="auto" metronome="false">\n')
